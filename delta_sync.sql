@@ -17,96 +17,6 @@
 /*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;
 
 --
--- Dumping data for table `attendancemaster`
---
--- WHERE:  1=1 ORDER BY attendancemasterid DESC LIMIT 50
-
-SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
-LOCK TABLES `attendancemaster` WRITE;
-/*!40000 ALTER TABLE `attendancemaster` DISABLE KEYS */;
-REPLACE INTO `attendancemaster` VALUES (7639,18,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7638,15,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7637,24,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7636,14,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7635,16,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7634,13,'0',13,0,0,'2026-11-13','Friday');
-REPLACE INTO `attendancemaster` VALUES (7633,0,'',0,0,0,'2026-11-12','');
-REPLACE INTO `attendancemaster` VALUES (7632,15,'A',13,0,1,'2026-11-10','Study');
-REPLACE INTO `attendancemaster` VALUES (7631,28,'A',13,0,1,'2026-11-10','Study');
-REPLACE INTO `attendancemaster` VALUES (7630,12,'A',13,0,1,'2026-11-10','Study');
-REPLACE INTO `attendancemaster` VALUES (7629,13,'A',13,0,1,'2026-11-10','Study');
-REPLACE INTO `attendancemaster` VALUES (7628,15,'A',13,0,1,'2026-11-06','Study');
-REPLACE INTO `attendancemaster` VALUES (7627,14,'A',13,0,1,'2026-11-06','Study');
-REPLACE INTO `attendancemaster` VALUES (7626,28,'A',13,0,1,'2026-11-06','Study');
-REPLACE INTO `attendancemaster` VALUES (7625,12,'A',13,0,1,'2026-11-06','Study');
-REPLACE INTO `attendancemaster` VALUES (7624,13,'A',13,0,1,'2026-11-06','Study');
-REPLACE INTO `attendancemaster` VALUES (7623,16,'A',13,0,1,'2026-11-05','Study');
-REPLACE INTO `attendancemaster` VALUES (7622,14,'A',13,0,1,'2026-11-05','Study');
-REPLACE INTO `attendancemaster` VALUES (7621,28,'A',13,0,1,'2026-11-05','Study');
-REPLACE INTO `attendancemaster` VALUES (7620,13,'A',13,0,1,'2026-11-05','Study');
-REPLACE INTO `attendancemaster` VALUES (7619,28,'A',13,0,1,'2026-11-04','Study');
-REPLACE INTO `attendancemaster` VALUES (7618,28,'A',13,0,1,'2026-11-04','Study');
-REPLACE INTO `attendancemaster` VALUES (7617,13,'A',13,0,1,'2026-11-04','Study');
-REPLACE INTO `attendancemaster` VALUES (7616,16,'A',13,0,1,'2026-11-04','Study');
-REPLACE INTO `attendancemaster` VALUES (7615,13,'A',13,0,1,'2026-11-03','Study');
-REPLACE INTO `attendancemaster` VALUES (7614,16,'A',13,0,1,'2026-11-03','Study');
-REPLACE INTO `attendancemaster` VALUES (7613,16,'A',13,0,1,'2026-11-02','Study');
-REPLACE INTO `attendancemaster` VALUES (7612,15,'A',13,0,1,'2026-11-02','Study');
-REPLACE INTO `attendancemaster` VALUES (7611,13,'A',13,0,1,'2026-11-02','Study');
-REPLACE INTO `attendancemaster` VALUES (7610,12,'A',13,0,1,'2026-11-02','Study');
-REPLACE INTO `attendancemaster` VALUES (7609,13,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7608,28,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7607,16,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7606,15,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7605,14,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7604,12,'A',13,0,1,'2026-10-31','Study');
-REPLACE INTO `attendancemaster` VALUES (7603,15,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7602,16,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7601,24,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7600,28,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7599,12,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7598,13,'A',13,0,1,'2026-10-30','Study');
-REPLACE INTO `attendancemaster` VALUES (7597,16,'A',13,0,1,'2026-10-29','Study');
-REPLACE INTO `attendancemaster` VALUES (7596,24,'A',13,0,1,'2026-10-29','Study');
-REPLACE INTO `attendancemaster` VALUES (7595,13,'A',13,0,1,'2026-10-29','Study');
-REPLACE INTO `attendancemaster` VALUES (7594,12,'A',13,0,1,'2026-10-29','Study');
-REPLACE INTO `attendancemaster` VALUES (7593,28,'A',13,0,1,'2026-10-28','Study');
-REPLACE INTO `attendancemaster` VALUES (7592,13,'A',13,0,1,'2026-10-28','Study');
-REPLACE INTO `attendancemaster` VALUES (7591,18,'A',13,0,1,'2026-10-27','Study');
-REPLACE INTO `attendancemaster` VALUES (7590,24,'A',13,0,1,'2026-10-27','Study');
-/*!40000 ALTER TABLE `attendancemaster` ENABLE KEYS */;
-UNLOCK TABLES;
-COMMIT;
-SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
-
--- Dump completed on 2026-11-14  0:02:17
-/*M!999999\- enable the sandbox mode */ 
--- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
---
--- Host: localhost    Database: miniacademia
--- ------------------------------------------------------
--- Server version	13.0.2-MariaDB
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;
-
---
 -- Dumping data for table `attendancedetail`
 --
 -- WHERE:  1=1 ORDER BY attendancedetailid DESC LIMIT 1500
@@ -1627,7 +1537,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14  0:02:17
+-- Dump completed on 2026-11-14  0:02:31
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1717,7 +1627,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14  0:02:18
+-- Dump completed on 2026-11-14  0:02:31
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1807,4 +1717,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14  0:02:18
+-- Dump completed on 2026-11-14  0:02:31
