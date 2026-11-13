@@ -29,6 +29,7 @@ REPLACE INTO `attendancemaster` VALUES (7634,13,'0',13,0,0,'2026-11-13','Friday'
 REPLACE INTO `attendancemaster` VALUES (7635,16,'0',13,0,0,'2026-11-13','Friday');
 REPLACE INTO `attendancemaster` VALUES (7636,14,'0',13,0,0,'2026-11-13','Friday');
 REPLACE INTO `attendancemaster` VALUES (7637,24,'0',13,0,0,'2026-11-13','Friday');
+REPLACE INTO `attendancemaster` VALUES (7638,15,'0',13,0,0,'2026-11-13','Friday');
 /*!40000 ALTER TABLE `attendancemaster` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -42,7 +43,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:07:26
+-- Dump completed on 2026-11-13 23:07:37
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -130,6 +131,15 @@ REPLACE INTO `attendancedetail` VALUES (7637,1010,'01010','Ameera',2,'Absent',12
 REPLACE INTO `attendancedetail` VALUES (7637,1029,'01029','Abdul Rehman',1,'Present',123917);
 REPLACE INTO `attendancedetail` VALUES (7637,1208,'01208','Maida Asif',1,'Present',123918);
 REPLACE INTO `attendancedetail` VALUES (7637,1232,'01232','Zainab Naeem',1,'Present',123919);
+REPLACE INTO `attendancedetail` VALUES (7638,1176,'01176','Hammad Ali',2,'Absent',123920);
+REPLACE INTO `attendancedetail` VALUES (7638,1245,'01245','Bisma Rani',2,'Absent',123921);
+REPLACE INTO `attendancedetail` VALUES (7638,1247,'01247','Abdul Hadi',2,'Absent',123922);
+REPLACE INTO `attendancedetail` VALUES (7638,1248,'01248','Rehan Waseem',2,'Absent',123923);
+REPLACE INTO `attendancedetail` VALUES (7638,1272,'01272','Muhammad Haseeb',1,'Present',123924);
+REPLACE INTO `attendancedetail` VALUES (7638,1283,'01283','Saim Abid',1,'Present',123925);
+REPLACE INTO `attendancedetail` VALUES (7638,1303,'01303','Momina Faraz',1,'Present',123926);
+REPLACE INTO `attendancedetail` VALUES (7638,1318,'01318','Amna Fareed',1,'Present',123927);
+REPLACE INTO `attendancedetail` VALUES (7638,1320,'01320','Zamin Abbas',1,'Present',123928);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -143,7 +153,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:07:27
+-- Dump completed on 2026-11-13 23:07:37
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -208,7 +218,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:07:27
+-- Dump completed on 2026-11-13 23:07:37
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -278,4 +288,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:07:27
+-- Dump completed on 2026-11-13 23:07:38
