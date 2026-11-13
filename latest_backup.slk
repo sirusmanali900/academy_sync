@@ -22777,7 +22777,7 @@ CREATE TABLE `attendancedetail` (
   `remarks` varchar(255) DEFAULT NULL,
   `attendancedetailid` int(20) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`attendancedetailid`)
-) ENGINE=MyISAM AUTO_INCREMENT=123929 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=123899 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -138203,20 +138203,44 @@ INSERT INTO `attendancedetail` VALUES
 (7633,1102,'',NULL,1,NULL,123858),
 (7633,1208,'',NULL,1,NULL,123859),
 (7633,1232,'',NULL,1,NULL,123860),
-(7634,1320,'01320','Zamin Abbas',2,'Absent',123923),
-(7634,1318,'01318','Amna Fareed',2,'Absent',123922),
-(7634,1303,'01303','Momina Faraz',1,'Present',123921),
-(7634,1283,'01283','Saim Abid',1,'Present',123920),
-(7634,1272,'01272','Muhammad Haseeb',1,'Present',123919),
-(7634,1248,'01248','Rehan Waseem',1,'Present',123918),
-(7634,1247,'01247','Abdul Hadi',1,'Present',123917),
-(7634,1245,'01245','Bisma Rani',1,'Present',123916),
-(7634,1176,'01176','Hammad Ali',1,'Present',123915),
-(7635,1164,'01164','Imran Imtiaz',1,'Present',123924),
-(7635,1193,'01193','Subhan Raheel',1,'Present',123925),
-(7635,1262,'01262','Aliza Amir',2,'Absent',123926),
-(7635,1313,'01313','Muhammad Mubariz',1,'Present',123927),
-(7635,1315,'01315','Darood Fatima',1,'Present',123928);
+(7634,975,'00975','Rehan Sultan',1,'Present',123861),
+(7634,1071,'01071','Hamid Raza',1,'Present',123862),
+(7634,1080,'01080','Mehak Shahzad',1,'Present',123863),
+(7634,1081,'01081','Zeeshan Sarwer',1,'Present',123864),
+(7634,1084,'01084','Muhammad Haroon  Amir',2,'Absent',123865),
+(7634,1113,'01113','Haroon imran',1,'Present',123866),
+(7634,1160,'01160','Dawood Chisti',2,'Absent',123867),
+(7634,1161,'01161','Ghania Amir',1,'Present',123868),
+(7634,1162,'01162','Abrish Ehsan',1,'Present',123869),
+(7634,1166,'01166','Aneeq',1,'Present',123870),
+(7634,1171,'01171','Faizan Ishtiyaq',1,'Present',123871),
+(7634,1188,'01188','Hamda',1,'Present',123872),
+(7634,1222,'01222','Zara Kamran',1,'Present',123873),
+(7634,1224,'01224','Ansa Zain',1,'Present',123874),
+(7634,1234,'01234','Abubakar Kashif',1,'Present',123875),
+(7634,1235,'01235','Maryam Tahir',1,'Present',123876),
+(7634,1236,'01236','Mehmona Nadeem',1,'Present',123877),
+(7634,1241,'01241','Malaika Rashid',1,'Present',123878),
+(7634,1242,'01242','Fatima Haider',1,'Present',123879),
+(7634,1243,'01243','Hafiz Dawood Tahir',1,'Present',123880),
+(7634,1244,'01244','Ayesha Rehman',1,'Present',123881),
+(7634,1252,'01252','Angel Rafaqat',1,'Present',123882),
+(7634,1254,'01254','Sundas Naveed',1,'Present',123883),
+(7634,1256,'01256','Hadia Imran',1,'Present',123884),
+(7634,1259,'01259','Noor Fatima Naeem',1,'Present',123885),
+(7634,1260,'01260','Maryam Touqeer',1,'Present',123886),
+(7634,1265,'01265','Naqeeb Asif',1,'Present',123887),
+(7634,1278,'01278','Haider Ali',1,'Present',123888),
+(7634,1285,'01285','Ali Haider',1,'Present',123889),
+(7634,1291,'01291','Abdul Rehman',1,'Present',123890),
+(7634,1292,'01292','Ghazi Ahmad',1,'Present',123891),
+(7634,1295,'01295','Eman Tanveer',1,'Present',123892),
+(7634,1305,'01305','Muskan Naeem',1,'Present',123893),
+(7634,1309,'01309','Fiza Fayyaz',1,'Present',123894),
+(7634,1310,'01310','Haniya Waqas',1,'Present',123895),
+(7634,1311,'01311','Abdul Rehman Imran',1,'Present',123896),
+(7634,1312,'01312','Fatima Shoukat',1,'Present',123897),
+(7634,1317,'01317','Mehmoona Imran',1,'Present',123898);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -138239,7 +138263,7 @@ CREATE TABLE `attendancemaster` (
   `adate` date NOT NULL,
   `day` varchar(20) NOT NULL,
   PRIMARY KEY (`attendancemasterid`)
-) ENGINE=MyISAM AUTO_INCREMENT=7636 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=7635 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -145883,8 +145907,7 @@ INSERT INTO `attendancemaster` VALUES
 (7631,28,'A',13,0,1,'2026-11-10','Study'),
 (7632,15,'A',13,0,1,'2026-11-10','Study'),
 (7633,0,'',0,0,0,'2026-11-12',''),
-(7634,15,'0',13,0,0,'2026-11-13','Friday'),
-(7635,14,'0',13,0,0,'2026-11-13','Friday');
+(7634,13,'0',13,0,0,'2026-11-13','Friday');
 /*!40000 ALTER TABLE `attendancemaster` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -319566,4 +319589,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 17:22:08
+-- Dump completed on 2026-11-13 19:54:24
