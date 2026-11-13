@@ -24,6 +24,7 @@
 SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
 LOCK TABLES `attendancemaster` WRITE;
 /*!40000 ALTER TABLE `attendancemaster` DISABLE KEYS */;
+REPLACE INTO `attendancemaster` VALUES (7639,18,'0',13,0,0,'2026-11-13','Friday');
 REPLACE INTO `attendancemaster` VALUES (7638,15,'0',13,0,0,'2026-11-13','Friday');
 REPLACE INTO `attendancemaster` VALUES (7637,24,'0',13,0,0,'2026-11-13','Friday');
 REPLACE INTO `attendancemaster` VALUES (7636,14,'0',13,0,0,'2026-11-13','Friday');
@@ -73,7 +74,6 @@ REPLACE INTO `attendancemaster` VALUES (7593,28,'A',13,0,1,'2026-10-28','Study')
 REPLACE INTO `attendancemaster` VALUES (7592,13,'A',13,0,1,'2026-10-28','Study');
 REPLACE INTO `attendancemaster` VALUES (7591,18,'A',13,0,1,'2026-10-27','Study');
 REPLACE INTO `attendancemaster` VALUES (7590,24,'A',13,0,1,'2026-10-27','Study');
-REPLACE INTO `attendancemaster` VALUES (7589,15,'A',13,0,1,'2026-10-27','Study');
 /*!40000 ALTER TABLE `attendancemaster` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -87,7 +87,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:48:47
+-- Dump completed on 2026-11-13 23:48:54
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -114,6 +114,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
 LOCK TABLES `attendancedetail` WRITE;
 /*!40000 ALTER TABLE `attendancedetail` DISABLE KEYS */;
+REPLACE INTO `attendancedetail` VALUES (7639,1078,'01078','Abdullah Naeem',2,'Absent',123929);
 REPLACE INTO `attendancedetail` VALUES (7638,1320,'01320','Zamin Abbas',1,'Present',123928);
 REPLACE INTO `attendancedetail` VALUES (7638,1318,'01318','Amna Fareed',1,'Present',123927);
 REPLACE INTO `attendancedetail` VALUES (7638,1303,'01303','Momina Faraz',1,'Present',123926);
@@ -1613,7 +1614,6 @@ REPLACE INTO `attendancedetail` VALUES (7561,1222,'01222',NULL,1,'',122389);
 REPLACE INTO `attendancedetail` VALUES (7561,1210,'01210',NULL,1,'',122388);
 REPLACE INTO `attendancedetail` VALUES (7561,1201,'01201',NULL,1,'',122387);
 REPLACE INTO `attendancedetail` VALUES (7561,1188,'01188',NULL,1,'',122386);
-REPLACE INTO `attendancedetail` VALUES (7561,1171,'01171',NULL,1,'',122385);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -1627,7 +1627,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:48:47
+-- Dump completed on 2026-11-13 23:48:54
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1717,7 +1717,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:48:47
+-- Dump completed on 2026-11-13 23:48:54
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1807,4 +1807,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 23:48:47
+-- Dump completed on 2026-11-13 23:48:54
