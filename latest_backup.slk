@@ -22777,7 +22777,7 @@ CREATE TABLE `attendancedetail` (
   `remarks` varchar(255) DEFAULT NULL,
   `attendancedetailid` int(20) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`attendancedetailid`)
-) ENGINE=MyISAM AUTO_INCREMENT=123899 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=123902 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -138240,7 +138240,10 @@ INSERT INTO `attendancedetail` VALUES
 (7634,1310,'01310','Haniya Waqas',1,'Present',123895),
 (7634,1311,'01311','Abdul Rehman Imran',1,'Present',123896),
 (7634,1312,'01312','Fatima Shoukat',1,'Present',123897),
-(7634,1317,'01317','Mehmoona Imran',1,'Present',123898);
+(7634,1317,'01317','Mehmoona Imran',1,'Present',123898),
+(7635,1237,'01237','Mubeen Imtiaz',2,'Absent',123899),
+(7635,1299,'01299','Rehan Kashif',1,'Present',123900),
+(7635,1306,'01306','HIba Naeem',2,'Absent',123901);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -138263,7 +138266,7 @@ CREATE TABLE `attendancemaster` (
   `adate` date NOT NULL,
   `day` varchar(20) NOT NULL,
   PRIMARY KEY (`attendancemasterid`)
-) ENGINE=MyISAM AUTO_INCREMENT=7635 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=7636 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -145907,7 +145910,8 @@ INSERT INTO `attendancemaster` VALUES
 (7631,28,'A',13,0,1,'2026-11-10','Study'),
 (7632,15,'A',13,0,1,'2026-11-10','Study'),
 (7633,0,'',0,0,0,'2026-11-12',''),
-(7634,13,'0',13,0,0,'2026-11-13','Friday');
+(7634,13,'0',13,0,0,'2026-11-13','Friday'),
+(7635,16,'0',13,0,0,'2026-11-13','Friday');
 /*!40000 ALTER TABLE `attendancemaster` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -319589,4 +319593,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 20:24:00
+-- Dump completed on 2026-11-13 20:37:54
