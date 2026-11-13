@@ -42,7 +42,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 22:55:00
+-- Dump completed on 2026-11-13 23:01:33
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -66,6 +66,84 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 --
 -- WHERE:  attendancemasterid IN (SELECT attendancemasterid FROM attendancemaster WHERE adate >= CURDATE() - INTERVAL 1 DAY)
 
+SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
+LOCK TABLES `attendancedetail` WRITE;
+/*!40000 ALTER TABLE `attendancedetail` DISABLE KEYS */;
+REPLACE INTO `attendancedetail` VALUES (7633,965,'',NULL,2,NULL,123853);
+REPLACE INTO `attendancedetail` VALUES (7633,977,'',NULL,1,NULL,123854);
+REPLACE INTO `attendancedetail` VALUES (7633,983,'',NULL,1,NULL,123855);
+REPLACE INTO `attendancedetail` VALUES (7633,1010,'',NULL,2,NULL,123856);
+REPLACE INTO `attendancedetail` VALUES (7633,1029,'',NULL,1,NULL,123857);
+REPLACE INTO `attendancedetail` VALUES (7633,1102,'',NULL,1,NULL,123858);
+REPLACE INTO `attendancedetail` VALUES (7633,1208,'',NULL,1,NULL,123859);
+REPLACE INTO `attendancedetail` VALUES (7633,1232,'',NULL,1,NULL,123860);
+REPLACE INTO `attendancedetail` VALUES (7634,975,'00975','Rehan Sultan',1,'Present',123861);
+REPLACE INTO `attendancedetail` VALUES (7634,1071,'01071','Hamid Raza',1,'Present',123862);
+REPLACE INTO `attendancedetail` VALUES (7634,1080,'01080','Mehak Shahzad',1,'Present',123863);
+REPLACE INTO `attendancedetail` VALUES (7634,1081,'01081','Zeeshan Sarwer',1,'Present',123864);
+REPLACE INTO `attendancedetail` VALUES (7634,1084,'01084','Muhammad Haroon  Amir',2,'Absent',123865);
+REPLACE INTO `attendancedetail` VALUES (7634,1113,'01113','Haroon imran',1,'Present',123866);
+REPLACE INTO `attendancedetail` VALUES (7634,1160,'01160','Dawood Chisti',2,'Absent',123867);
+REPLACE INTO `attendancedetail` VALUES (7634,1161,'01161','Ghania Amir',1,'Present',123868);
+REPLACE INTO `attendancedetail` VALUES (7634,1162,'01162','Abrish Ehsan',1,'Present',123869);
+REPLACE INTO `attendancedetail` VALUES (7634,1166,'01166','Aneeq',1,'Present',123870);
+REPLACE INTO `attendancedetail` VALUES (7634,1171,'01171','Faizan Ishtiyaq',1,'Present',123871);
+REPLACE INTO `attendancedetail` VALUES (7634,1188,'01188','Hamda',1,'Present',123872);
+REPLACE INTO `attendancedetail` VALUES (7634,1222,'01222','Zara Kamran',1,'Present',123873);
+REPLACE INTO `attendancedetail` VALUES (7634,1224,'01224','Ansa Zain',1,'Present',123874);
+REPLACE INTO `attendancedetail` VALUES (7634,1234,'01234','Abubakar Kashif',1,'Present',123875);
+REPLACE INTO `attendancedetail` VALUES (7634,1235,'01235','Maryam Tahir',1,'Present',123876);
+REPLACE INTO `attendancedetail` VALUES (7634,1236,'01236','Mehmona Nadeem',1,'Present',123877);
+REPLACE INTO `attendancedetail` VALUES (7634,1241,'01241','Malaika Rashid',1,'Present',123878);
+REPLACE INTO `attendancedetail` VALUES (7634,1242,'01242','Fatima Haider',1,'Present',123879);
+REPLACE INTO `attendancedetail` VALUES (7634,1243,'01243','Hafiz Dawood Tahir',1,'Present',123880);
+REPLACE INTO `attendancedetail` VALUES (7634,1244,'01244','Ayesha Rehman',1,'Present',123881);
+REPLACE INTO `attendancedetail` VALUES (7634,1252,'01252','Angel Rafaqat',1,'Present',123882);
+REPLACE INTO `attendancedetail` VALUES (7634,1254,'01254','Sundas Naveed',1,'Present',123883);
+REPLACE INTO `attendancedetail` VALUES (7634,1256,'01256','Hadia Imran',1,'Present',123884);
+REPLACE INTO `attendancedetail` VALUES (7634,1259,'01259','Noor Fatima Naeem',1,'Present',123885);
+REPLACE INTO `attendancedetail` VALUES (7634,1260,'01260','Maryam Touqeer',1,'Present',123886);
+REPLACE INTO `attendancedetail` VALUES (7634,1265,'01265','Naqeeb Asif',1,'Present',123887);
+REPLACE INTO `attendancedetail` VALUES (7634,1278,'01278','Haider Ali',1,'Present',123888);
+REPLACE INTO `attendancedetail` VALUES (7634,1285,'01285','Ali Haider',1,'Present',123889);
+REPLACE INTO `attendancedetail` VALUES (7634,1291,'01291','Abdul Rehman',1,'Present',123890);
+REPLACE INTO `attendancedetail` VALUES (7634,1292,'01292','Ghazi Ahmad',1,'Present',123891);
+REPLACE INTO `attendancedetail` VALUES (7634,1295,'01295','Eman Tanveer',1,'Present',123892);
+REPLACE INTO `attendancedetail` VALUES (7634,1305,'01305','Muskan Naeem',1,'Present',123893);
+REPLACE INTO `attendancedetail` VALUES (7634,1309,'01309','Fiza Fayyaz',1,'Present',123894);
+REPLACE INTO `attendancedetail` VALUES (7634,1310,'01310','Haniya Waqas',1,'Present',123895);
+REPLACE INTO `attendancedetail` VALUES (7634,1311,'01311','Abdul Rehman Imran',1,'Present',123896);
+REPLACE INTO `attendancedetail` VALUES (7634,1312,'01312','Fatima Shoukat',1,'Present',123897);
+REPLACE INTO `attendancedetail` VALUES (7634,1317,'01317','Mehmoona Imran',1,'Present',123898);
+REPLACE INTO `attendancedetail` VALUES (7635,1306,'01306','HIba Naeem',1,'Present',123907);
+REPLACE INTO `attendancedetail` VALUES (7635,1299,'01299','Rehan Kashif',1,'Present',123906);
+REPLACE INTO `attendancedetail` VALUES (7635,1237,'01237','Mubeen Imtiaz',1,'Present',123905);
+REPLACE INTO `attendancedetail` VALUES (7636,1164,'01164','Imran Imtiaz',1,'Present',123908);
+REPLACE INTO `attendancedetail` VALUES (7636,1193,'01193','Subhan Raheel',1,'Present',123909);
+REPLACE INTO `attendancedetail` VALUES (7636,1262,'01262','Aliza Amir',1,'Present',123910);
+REPLACE INTO `attendancedetail` VALUES (7636,1313,'01313','Muhammad Mubariz',2,'Absent',123911);
+REPLACE INTO `attendancedetail` VALUES (7636,1315,'01315','Darood Fatima',2,'Absent',123912);
+REPLACE INTO `attendancedetail` VALUES (7637,965,'00965','Subhan Shehbaz',2,'Absent',123913);
+REPLACE INTO `attendancedetail` VALUES (7637,977,'00977','Sidra Kanwal',1,'Present',123914);
+REPLACE INTO `attendancedetail` VALUES (7637,983,'00983','Zainab Imran',1,'Present',123915);
+REPLACE INTO `attendancedetail` VALUES (7637,1010,'01010','Ameera',2,'Absent',123916);
+REPLACE INTO `attendancedetail` VALUES (7637,1029,'01029','Abdul Rehman',1,'Present',123917);
+REPLACE INTO `attendancedetail` VALUES (7637,1208,'01208','Maida Asif',1,'Present',123918);
+REPLACE INTO `attendancedetail` VALUES (7637,1232,'01232','Zainab Naeem',1,'Present',123919);
+/*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
+UNLOCK TABLES;
+COMMIT;
+SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
+
+-- Dump completed on 2026-11-13 23:01:34
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -130,7 +208,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 22:55:00
+-- Dump completed on 2026-11-13 23:01:34
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -200,4 +278,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-13 22:55:00
+-- Dump completed on 2026-11-13 23:01:34
