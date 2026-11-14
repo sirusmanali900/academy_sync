@@ -24,6 +24,32 @@
 SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
 LOCK TABLES `attendancedetail` WRITE;
 /*!40000 ALTER TABLE `attendancedetail` DISABLE KEYS */;
+REPLACE INTO `attendancedetail` VALUES (7637,1316,'01316','Kinz ul Eman',2,'Absent',123954);
+REPLACE INTO `attendancedetail` VALUES (7637,1308,'01308','Mariam Zafar',1,'Present',123953);
+REPLACE INTO `attendancedetail` VALUES (7637,1307,'01307','Umm e Maira',2,'Absent',123952);
+REPLACE INTO `attendancedetail` VALUES (7637,1294,'01294','Ubaid ullah',1,'Present',123951);
+REPLACE INTO `attendancedetail` VALUES (7637,1276,'01276','Yashfa Noor',1,'Present',123950);
+REPLACE INTO `attendancedetail` VALUES (7637,1271,'01271','Daniya Amber',1,'Present',123949);
+REPLACE INTO `attendancedetail` VALUES (7637,1266,'01266','Ubaid Raza',1,'Present',123948);
+REPLACE INTO `attendancedetail` VALUES (7637,1227,'01227','Zainab Tahir',1,'Present',123947);
+REPLACE INTO `attendancedetail` VALUES (7637,1225,'01225','Laiba Altaf',2,'Absent',123946);
+REPLACE INTO `attendancedetail` VALUES (7637,1202,'01202','Mahnoor Sarwar',1,'Present',123945);
+REPLACE INTO `attendancedetail` VALUES (7637,1192,'01192','Haiqa Abid',1,'Present',123944);
+REPLACE INTO `attendancedetail` VALUES (7637,1185,'01185','Muskan Fatima Kashif',2,'Absent',123943);
+REPLACE INTO `attendancedetail` VALUES (7637,1183,'01183','Fatima Qasim',1,'Present',123942);
+REPLACE INTO `attendancedetail` VALUES (7637,1180,'01180','Bilal Asif',1,'Present',123941);
+REPLACE INTO `attendancedetail` VALUES (7637,1177,'01177','Maham',1,'Present',123940);
+REPLACE INTO `attendancedetail` VALUES (7637,1175,'01175','Meerab Shahbaz',1,'Present',123939);
+REPLACE INTO `attendancedetail` VALUES (7637,1170,'01170','Talha Abbas',2,'Absent',123938);
+REPLACE INTO `attendancedetail` VALUES (7637,1169,'01169','Muhammad Hazik Sharjeel',1,'Present',123937);
+REPLACE INTO `attendancedetail` VALUES (7637,1118,'01118','Nehal',1,'Present',123936);
+REPLACE INTO `attendancedetail` VALUES (7637,1109,'01109','Samia akram',1,'Present',123935);
+REPLACE INTO `attendancedetail` VALUES (7637,1107,'01107','Muhammad Usman',1,'Present',123934);
+REPLACE INTO `attendancedetail` VALUES (7637,1101,'01101','Sarim Shahbaz',1,'Present',123933);
+REPLACE INTO `attendancedetail` VALUES (7637,1093,'01093','Hamna Noor',1,'Present',123932);
+REPLACE INTO `attendancedetail` VALUES (7637,1092,'01092','Zahra Noor',1,'Present',123931);
+REPLACE INTO `attendancedetail` VALUES (7637,1079,'01079','Seerat  Fatima',1,'Present',123930);
+REPLACE INTO `attendancedetail` VALUES (7637,966,'00966','Zain ul abdin',1,'Present',123929);
 REPLACE INTO `attendancedetail` VALUES (7636,1317,'01317','Mehmoona Imran',1,'Present',123928);
 REPLACE INTO `attendancedetail` VALUES (7636,1312,'01312','Fatima Shoukat',1,'Present',123927);
 REPLACE INTO `attendancedetail` VALUES (7636,1311,'01311','Abdul Rehman Imran',1,'Present',123926);
@@ -1498,32 +1524,6 @@ REPLACE INTO `attendancedetail` VALUES (7561,1260,'01260',NULL,2,'',122402);
 REPLACE INTO `attendancedetail` VALUES (7561,1259,'01259',NULL,1,'',122401);
 REPLACE INTO `attendancedetail` VALUES (7561,1256,'01256',NULL,1,'',122400);
 REPLACE INTO `attendancedetail` VALUES (7561,1254,'01254',NULL,1,'',122399);
-REPLACE INTO `attendancedetail` VALUES (7561,1252,'01252',NULL,1,'',122398);
-REPLACE INTO `attendancedetail` VALUES (7561,1244,'01244',NULL,1,'',122397);
-REPLACE INTO `attendancedetail` VALUES (7561,1243,'01243',NULL,1,'',122396);
-REPLACE INTO `attendancedetail` VALUES (7561,1242,'01242',NULL,1,'',122395);
-REPLACE INTO `attendancedetail` VALUES (7561,1241,'01241',NULL,1,'',122394);
-REPLACE INTO `attendancedetail` VALUES (7561,1236,'01236',NULL,1,'',122393);
-REPLACE INTO `attendancedetail` VALUES (7561,1235,'01235',NULL,1,'',122392);
-REPLACE INTO `attendancedetail` VALUES (7561,1234,'01234',NULL,1,'',122391);
-REPLACE INTO `attendancedetail` VALUES (7561,1224,'01224',NULL,1,'',122390);
-REPLACE INTO `attendancedetail` VALUES (7561,1222,'01222',NULL,1,'',122389);
-REPLACE INTO `attendancedetail` VALUES (7561,1210,'01210',NULL,1,'',122388);
-REPLACE INTO `attendancedetail` VALUES (7561,1201,'01201',NULL,1,'',122387);
-REPLACE INTO `attendancedetail` VALUES (7561,1188,'01188',NULL,1,'',122386);
-REPLACE INTO `attendancedetail` VALUES (7561,1171,'01171',NULL,1,'',122385);
-REPLACE INTO `attendancedetail` VALUES (7561,1166,'01166',NULL,1,'',122384);
-REPLACE INTO `attendancedetail` VALUES (7561,1162,'01162',NULL,1,'',122383);
-REPLACE INTO `attendancedetail` VALUES (7561,1161,'01161',NULL,1,'',122382);
-REPLACE INTO `attendancedetail` VALUES (7561,1160,'01160',NULL,1,'',122381);
-REPLACE INTO `attendancedetail` VALUES (7561,1155,'01155',NULL,1,'',122380);
-REPLACE INTO `attendancedetail` VALUES (7561,1113,'01113',NULL,1,'',122379);
-REPLACE INTO `attendancedetail` VALUES (7561,1084,'01084',NULL,1,'',122378);
-REPLACE INTO `attendancedetail` VALUES (7561,1081,'01081',NULL,1,'',122377);
-REPLACE INTO `attendancedetail` VALUES (7561,1080,'01080',NULL,1,'',122376);
-REPLACE INTO `attendancedetail` VALUES (7561,1071,'01071',NULL,1,'',122375);
-REPLACE INTO `attendancedetail` VALUES (7561,975,'00975',NULL,1,'',122374);
-REPLACE INTO `attendancedetail` VALUES (7560,1308,'01308',NULL,1,'',122373);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -1537,7 +1537,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 16:57:10
+-- Dump completed on 2026-11-14 16:58:04
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1627,7 +1627,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 16:57:10
+-- Dump completed on 2026-11-14 16:58:04
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1717,4 +1717,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 16:57:10
+-- Dump completed on 2026-11-14 16:58:04
