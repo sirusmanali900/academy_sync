@@ -24,6 +24,13 @@
 SET @OLD_AUTOCOMMIT=@@AUTOCOMMIT, @@AUTOCOMMIT=0;
 LOCK TABLES `attendancedetail` WRITE;
 /*!40000 ALTER TABLE `attendancedetail` DISABLE KEYS */;
+REPLACE INTO `attendancedetail` VALUES (7640,1232,'01232','Zainab Naeem',1,'Present',123985);
+REPLACE INTO `attendancedetail` VALUES (7640,1208,'01208','Maida Asif',1,'Present',123984);
+REPLACE INTO `attendancedetail` VALUES (7640,1029,'01029','Abdul Rehman',1,'Present',123983);
+REPLACE INTO `attendancedetail` VALUES (7640,1010,'01010','Ameera',1,'Present',123982);
+REPLACE INTO `attendancedetail` VALUES (7640,983,'00983','Zainab Imran',1,'Present',123981);
+REPLACE INTO `attendancedetail` VALUES (7640,977,'00977','Sidra Kanwal',1,'Present',123980);
+REPLACE INTO `attendancedetail` VALUES (7640,965,'00965','Subhan Shehbaz',1,'Present',123979);
 REPLACE INTO `attendancedetail` VALUES (7639,1078,'01078','Abdullah Naeem',1,'Present',123978);
 REPLACE INTO `attendancedetail` VALUES (7634,1306,'01306','HIba Naeem',1,'Present',123977);
 REPLACE INTO `attendancedetail` VALUES (7634,1299,'01299','Rehan Kashif',1,'Present',123976);
@@ -1517,13 +1524,6 @@ REPLACE INTO `attendancedetail` VALUES (7562,1101,'01101',NULL,1,'',122421);
 REPLACE INTO `attendancedetail` VALUES (7562,1093,'01093',NULL,2,'',122420);
 REPLACE INTO `attendancedetail` VALUES (7562,1092,'01092',NULL,2,'',122419);
 REPLACE INTO `attendancedetail` VALUES (7562,1079,'01079',NULL,2,'',122418);
-REPLACE INTO `attendancedetail` VALUES (7562,966,'00966',NULL,1,'',122417);
-REPLACE INTO `attendancedetail` VALUES (7561,1312,'01312',NULL,1,'',122416);
-REPLACE INTO `attendancedetail` VALUES (7561,1311,'01311',NULL,1,'',122415);
-REPLACE INTO `attendancedetail` VALUES (7561,1310,'01310',NULL,1,'',122414);
-REPLACE INTO `attendancedetail` VALUES (7561,1309,'01309',NULL,1,'',122413);
-REPLACE INTO `attendancedetail` VALUES (7561,1305,'01305',NULL,1,'',122412);
-REPLACE INTO `attendancedetail` VALUES (7561,1302,'01302',NULL,2,'',122411);
 /*!40000 ALTER TABLE `attendancedetail` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -1537,7 +1537,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 17:00:47
+-- Dump completed on 2026-11-14 17:00:57
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1627,7 +1627,7 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 17:00:48
+-- Dump completed on 2026-11-14 17:00:58
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.20-13.0.2-MariaDB, for Android (aarch64)
 --
@@ -1717,4 +1717,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-14 17:00:48
+-- Dump completed on 2026-11-14 17:00:58
